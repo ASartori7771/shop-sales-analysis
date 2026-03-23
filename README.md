@@ -1,7 +1,7 @@
 # Tienda Sales Analysis
 
-Exploratory analysis and revenue forecasting on a retail store dataset (~1,050 sales records across two stores).
-
+ENGLISH: Exploratory analysis and revenue forecasting on a retail store dataset (~1,050 sales records across two stores).
+ESPAÑOL: Análisis exploratorio y pronóstico de ingresos de una cadena de tienda minorista (~1.050 registros de ventas en dos tiendas)
 ---
 
 ## Project Structure
