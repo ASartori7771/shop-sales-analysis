@@ -10,7 +10,7 @@ ESPAÑOL: Análisis exploratorio y pronóstico de ingresos de una cadena de tien
 
 ## Dashboard Preview
 
-![Dashboard](powerbi/dashboard_preview.png)
+![Dashboard](powerbi/preview_dashboard.png)
 
 ---
 
@@ -30,7 +30,7 @@ sales-analysis-powerbi/
 │
 ├── powerbi/
 │   ├── Sales_Dashboard.pbix            # Power BI dashboard
-│   └── dashboard_preview.png
+│   └── preview_dashboard.png
 │
 ├── charts/
 │   ├── revenue_by_product.png
