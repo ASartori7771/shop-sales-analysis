@@ -1,22 +1,44 @@
 # Tienda Sales Analysis
 
-Exploratory analysis and revenue forecasting on a retail store dataset (~1,050 sales records across two stores).
+ENGLISH: Exploratory analysis and revenue forecasting on a retail store dataset (~1,050 sales records across two stores).
+
+ESPAÑOL: Análisis exploratorio y pronóstico de ingresos de una cadena de tienda minorista (~1.050 registros de ventas en dos tiendas)
+
+---
+
+# Sales Analysis Dashboard (Power BI)
+
+## Dashboard Preview
+
+![Dashboard](powerbi/dashboard_preview.png)
 
 ---
 
 ## Project Structure
 
 ```
-├── Datos_Ventas_Tienda.csv          # Store 1 raw data (1,000 records)
-├── Datos_Ventas_Tienda2.csv         # Store 2 raw data (50 records)
-├── Tienda_Ventas_Analysis.ipynb     # EDA: cleaning, merging, key metrics
-├── Tienda_Visualizations.ipynb      # Charts: revenue, trend, heatmap
-├── Tienda_Forecasting.ipynb         # Time-series forecast (linear trend)
+sales-analysis-powerbi/
+│
+├── data/
+│   ├── Datos_Ventas_Tienda.csv         # Store 1 raw data (1,000 records)
+│   └── Datos_Ventas_Tienda2.csv        # Store 2 raw data (50 records)
+│
+├── notebooks/
+│   ├── Tienda_Ventas_Analysis.ipynb    # EDA: cleaning, merging, key metrics
+│   ├── Tienda_Visualizations.ipynb     # Charts: revenue, trend, heatmap
+│   └── Tienda_Forecasting.ipynb        # Time-series forecast (linear trend)
+│
+├── powerbi/
+│   ├── Sales_Dashboard.pbix            # Power BI dashboard
+│   └── dashboard_preview.png
+│
 ├── charts/
 │   ├── revenue_by_product.png
 │   ├── monthly_trend.png
 │   └── heatmap_product_month.png
-└── README.md
+│
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -82,3 +104,8 @@ Then run the notebooks in order:
 - pandas
 - matplotlib
 - statsmodels
+- NumPy
+- Matplotlib
+- Power BI
+- Power Query
+- DAX
